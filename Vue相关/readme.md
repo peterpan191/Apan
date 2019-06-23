@@ -10,7 +10,7 @@
     <title>Document</title>
     <script src="./lib/vue.js"></script>
 </head>
-<body>
+<body> 
     <div id="app">
             {{ info }} 反转的{{ reverseMessage }} 
             <ul>
