@@ -68,6 +68,6 @@ var msg = new Promise(function(resolve,reject){ // resolve 处理成功的函数
    + every 当数组中的每一项都符合某个条件时就返回true 如果有一项不满足就返回false
 5. includes 当数组中的某一项符合时返回true 不满足返回false 跟indexOf()很像 
 6. find和findIndex 分别是找到某个元素 和找到某个元素对应的一个下标 如果找到那个元素即使下面有符合条件的元素也不会向下执行
-新提交
+
 
 
