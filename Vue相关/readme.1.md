@@ -71,4 +71,4 @@ var msg = new Promise(function(resolve,reject){ // resolve 处理成功的函数
 
 
 
-的复合型
+的复合型吧
