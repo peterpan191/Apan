@@ -14,15 +14,15 @@
     + v-else-if v-else
     + v-for 循环一个数组  里面两个属性 一个ele 一个index ele是每个对象  index是每个下标 用v-for的时候必须有一个key 这个key是唯一的
     ```
-     <ul>
-            <li v-for="(item , index) in list" :key="index">
-                {{ item.title }}
-            </li>
-        </ul>
-         var vm = new Vue({
+    <ul>
+        <li v-for="(item , index) in list" :key="index">
+            {{ item.title }}
+        </li>
+    </ul>
+        var vm = new Vue({
         el: "#app",
         data() {
-          return {
+            return {
             list:[
                 {
                     name : '张三',
@@ -37,7 +37,7 @@
                     id:1
                 }
             ]
-          };
+            };
         }})
     ```
     + v-bind 绑定一个属性   v-bind可以去掉 直接用一个:表示
