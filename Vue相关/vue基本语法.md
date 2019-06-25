@@ -12,7 +12,7 @@
     + v-show 控制元素的显示和隐藏  它的特点是在页面里面使用display:none
     + v-if 也是控制元素的显示和隐藏 如果隐藏的话在页面里面这个节点是不会渲染的
     + v-else-if v-else
-    + v-for 循环一个数组  里面两个属性 一个ele 一个index ele是每个对象  index是每个下标 用v-for的时候必须有一个key 这个key是唯一的
+    + v-for 循环一个数组  里面两个属性 一个ele 一个index ，ele是每个对象，  index是每个下标。 用v-for的时候必须有一个key ，这个key是唯一的，key只能用number获取String，key在使用时必须使用v-bind值绑定的形式，指定key的值  
     ```
     <ul>
         <li v-for="(item , index) in list" :key="index">
