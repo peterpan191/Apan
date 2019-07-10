@@ -192,13 +192,13 @@ export default new Vuex.Store({
       },400)
       
     },
-    syncUpdate({commit} ,val){
+    <!-- syncUpdate({commit} ,val){
       console.log(context)
       setTimeout(function(){
         commit("updateNum",val)  
       },400)
       
-    },
+    }, -->   解构写法
   }
 })
 
@@ -353,7 +353,7 @@ export default moduleB
 ### 模块化注意点  
 1. 对于上面的模块化的写法  只有state是模块化的 其他的诸如 getters mutations actions不是模块化 
 2. 如果想实现getters mutations actions实现模块化 那么 得在每个模块的js里面加入 ***命名空间 ***
-`namespaced: true,` 
+`namespaced: true,`  
 3. 启用命名空间之后 获取getters mutations actions的写法都要变 
 
 
