@@ -1,0 +1,89 @@
+不凡科技: http://www.bufantec.com/
+自学flex布局: http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+气泡: http://www.cnblogs.com/daxiong/articles/3158630.html
+md笔记http://www.gcssloop.com/markdown/markdown-grammar
+开发者:https://cloud.tencent.com/developer/devdocs
+移动端二维码生成:
+1. 安装noda_modules
+2. 全局安装http-server命令:      npm install http-server -g 
+3. 在相应的文件夹里面 按  shift+鼠标右键 打开命令窗口或者window powerShell
+4. 或者直接打开 git bash hear
+5. 输入命令   http-server -o
+6. 在浏览器地址栏输入相应的文件夹名字 
+7. 通过ipconfig -all 查看所有ip  将127.0.0.1改为192.168.0.xxx
+8. 打开草料二维码生成器,网址,将刚才的地址粘贴进去
+9.移动端浏览即可
+
+git使用
+1.git init 仓库初始化操作
+2.git status  显示工作目录和暂存区的状态
+3.git add --all  将所有变化提交到暂存区
+4.git commit -m '提交信息' (注：“提交信息”里面换成你需要，如“first commit”)  将缓存区内容添加到本地仓库
+5.git push -u origin master  将本地版本库推送到远程服务器，
+6.输入邮箱
+7.输入密码
+
+vscode: 上传github
+ M: 代表修改过的文件
+ D: 代表删除了的文件
+ A: 代表新增的文件
+ 
+
+修改后的git使用
+git init
+git add README.md
+git commit -m "test commit"
+git remote add origin https://github.com/ZJLG/Test.git
+git push -u origin master
+
+git 下载文件
+git clone 下载地址
+
+网站:站长素材  懒人之家  模板之家  博客园  CSDN w3C
+正则测试:https://regexper.com/#
+贝塞尔弧线: https://cubic-bezier.com/#.17,.67,.83,.67
+animate库:https://daneden.github.io/animate.css/
+ui库: https://www.layui.com/
+mock.js网络地址: http://mockjs.com/dist/mock.js
+colorui库github: https://github.com/weilanwl/ColorUI
+微信小程序:https://mp.weixin.qq.com     小程序id: wx8eae79eae708a5c7
+微信id: 95f010307fde46008b6e056b42538298
+百度地图开发者:http://lbsyun.baidu.com/
+	1. 开发文档
+	2. javascript API==>选择2.0版
+	3. 开发指南==>账号和获取秘钥==>申请百度开发者
+	4. 获取秘钥==>创建应用==>应用名==>应用类型==>游览器端==>IP白名单shuru"*";
+	5. 提交
+	6. 复制ak
+	7. link:  http://api.map.baidu.com/api?v=2.0&ak=ak地址;
+
+css制作图形:https://jingyan.baidu.com/article/e52e36154226ef40c70c5148.html
+wed网站:http://www.w3school.com.cn/jsref/index.asp
+[字符集编码介绍](http://www.ruanyifeng.com/blog/2007/10/ascii_unicode_and_utf-8.html)
+[css中可以和不可以继承的属性总结](https://www.cnblogs.com/thislbq/p/5882105.html)
+
+	阻止冒泡兼容写法e.stopPropagation ? e.stopPropagation() : e.cancelBubble = true;
+
+如何利用VSCode优雅的使用Git提交至GitHubhttps://blog.csdn.net/AlwaysbeFun/article/details/82780508
+git 怎么删除github上的文件
+	硬盘删除文件后，执行$ git status
+	会提示你仍然需要$ git rm <文件>
+	此时如果是要删除大批量文件，这么一个一个命令下去不得累死人啊
+	其实可以这样（不管之前有没有已经本地物理删除）
+	执行 $ git rm * -r（记得，cd 到你要删除的目录下。当然 * 可以换成指定目录）
+	这时删除文件已经进入本地缓存区，
+	接下来就是正常的提交操作了
+	$ git add . 
+	$ git commit -m "clear"
+	$ git push origin master 
+
+
+
+
+
+
+
+
+
+
+
