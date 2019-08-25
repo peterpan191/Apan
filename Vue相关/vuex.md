@@ -136,7 +136,7 @@ Action 类似于 mutation，不同在于：
 
 + Action 提交的是 mutation，而不是直接变更状态。  // action 里面提交数据是提交mutation 在mutation里面是直接修改state
 + Action 可以包含任意异步操作。
-
++ 组件中用this.$store.dispatch('syncUpdate',5) 提交
 ```
 export default new Vuex.Store({
   state: {
@@ -210,7 +210,7 @@ export default new Vuex.Store({
 2. mapGetters -- 将store中的多个getter映射到局部组件的计算属性中
 3. mapMutations 将组件中的 methods 映射为 store.commit 调用。
 4. mapActions 将组件的 methods 映射为 store.dispatch 调用
-
+5. mapState , mapGetters 写在计算函数computed里  。mapMutations , mapActions 写在方法methods里
 
 ###  mapState 的三种种写法
 ```
